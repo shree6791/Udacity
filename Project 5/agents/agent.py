@@ -13,6 +13,7 @@ class DDPG():
     """Reinforcement Learning agent that learns using DDPG."""
     
     def __init__(self, task):
+        
         self.task = task
         self.state_size = task.state_size
         self.action_size = task.action_size
